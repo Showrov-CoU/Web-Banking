@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web Banking</title>
+  </head>
+  <body class="bg-color-primary text-color-white tracking-wider">
+    <header>
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 text-color-secondary font-bold text-3xl">
+                <a href="#home"><span class="text-color-white">A</span><span>.</span><span class="text-color-white">R</span><span>.</span><span class="">Showrov</span></a>
+                <!-- <a href="#home"><img src="/webBanking/image/myLogo.png" alt=""></a> -->
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">free trial</button></li>
+                </ul>
+            </div>
+            <!-- ......For Mobile....... -->
+            <div id="hamburger" class="lg:hidden cursor-pointer z-10">
+                <i class="fa-solid fa-bars fa-beat-fade"></i>
+            </div>
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid  place-items-center py-20">
+                    <li><a id="hLink" href="" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a id="hLink" href="" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a id="hLink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a id="hLink" href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">free trial</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script src="/src/menu.js"></script>
+  </body>
+</html>
